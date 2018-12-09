@@ -47,7 +47,7 @@ void DDA(int X0, int Y0, int X1, int Y1){
 
     float X = X0;
     float Y = Y0;
-    if((dy/dx)<1){
+    if((dy/dx)>1){
     for (int i=0; i<=steps; i++){
         //putpixel(X,Y,WHITE);
         std::cout<< "(" << X << "," << Y << ")\n";
