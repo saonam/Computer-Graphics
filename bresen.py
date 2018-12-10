@@ -1,6 +1,7 @@
 from matplotlib import pyplot as plt
 from random import randint
-
+	
+				
 def bresenham(xa, ya, xb, yb):
     dx = abs(xb-xa)
     dy = abs(yb-ya)
@@ -54,8 +55,11 @@ def bresenham(xa, ya, xb, yb):
 for i in range(5):   
     a = []
     b = []
-    c, d, e, f = randint(-1000,1000), randint(-1000,1000),randint(-1000,1000),randint(-1000,1000)
+    c, d, e, f = randint(-10000,10000), randint(-10000,10000),randint(-10000,10000),randint(-10000,10000)
     bresenham(c,d,e,f)
     print("( {0} , {1} ), ( {2} , {3} )".format(c,d,e,f))
-    plt.plot(a,b)
-    plt.show()
+	plt.plot([-10000,10000],[0,0], linewidth=4, color='red' )
+	plt.plot([0,0],[-10000,10000], linewidth=4, color='red' )
+	plt.plot(a,b, color='red')
+	plt.plot([c,e],[d,f], color='grey')
+	plt.show()
