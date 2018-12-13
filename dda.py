@@ -18,7 +18,7 @@ def DDA(X0, Y0, X1, Y1):
         Y0+= Yinc
 
 
-for i in range(5):   
+'''for i in range(5):   
     x = []
     y = []
     c, d, e, f = randint(-1000,1000), randint(-1000,1000),randint(-1000,1000),randint(-1000,1000)
@@ -26,3 +26,9 @@ for i in range(5):
     print("( {0} , {1} ), ( {2} , {3} )".format(c,d,e,f))
     plt.plot(x,y)
     plt.show()
+'''
+x = []
+y = []
+DDA(50,260,200,220)
+plt.plot(x,y)
+plt.show()
