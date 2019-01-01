@@ -1,2 +1,3 @@
 # Computer-Graphics
-Algorithms related to graphics
+Algorithms related to computer graphics
+
