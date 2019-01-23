@@ -1,7 +1,6 @@
 from matplotlib import pyplot as plt
 from random import randint
-a=[]
-b=[]
+
 def midPoint(xc,yc,r):
     x=0
     y=r
@@ -52,5 +51,3 @@ for i in range(5):
 		plt.plot([0,0],[-10000,10000], color='red' )
 		plt.scatter(a,b, color='grey')
 		plt.show()
-
-

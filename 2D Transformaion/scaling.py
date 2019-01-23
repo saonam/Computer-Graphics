@@ -8,7 +8,7 @@ t_vertices = [
         (2,4)
 ]
 st_vertices = []
-sx, sy = int(sys.argv[1]),int(sys.argv[2])
+sx, sy = 2,2
 x_pivot, y_pivot = 6,6 
 
 for v in t_vertices:
@@ -25,5 +25,6 @@ plt.plot([v[0] for v in t_vertices],[v[1] for v in t_vertices])
 # translated traingle
 plt.plot([v[0] for v in st_vertices],[v[1] for v in st_vertices])
 plt.show()
+print(st_vertices)
 
 

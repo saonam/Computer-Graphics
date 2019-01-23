@@ -48,7 +48,7 @@ def ellipse(xc, yc, ra, rb):
         else:
             y = y - 1
             p = p - (2*ra*ra*y) + (ra*ra)
-
+'''
 for i in range(5):  
     a = []
     b = []
@@ -63,3 +63,16 @@ for i in range(5):
     plt.plot([0,0],[-100,100], color='red')
     plt.scatter(a,b)
     plt.show()
+'''
+a=[]
+b=[]
+ellipse(0,0,2,3)
+for x,y in zip(a,b):
+    print(x,y)
+
+
+
+    
+
+
+

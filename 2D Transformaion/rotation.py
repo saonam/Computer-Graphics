@@ -8,7 +8,7 @@ t_vertices = [
         (2,4)
 ]
 rt_vertices = []
-angle = int(sys.argv[1])
+angle = 60
 
 x_pivot, y_pivot = 0,0
 
@@ -28,3 +28,4 @@ plt.plot([v[0] for v in rt_vertices],[v[1] for v in rt_vertices])
 plt.show()
 
 
+print(rt_vertices)
